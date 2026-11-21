@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinder Lane Kitchen — wood-fired neighbourhood kitchen (demo site, fictional business)</title>
+<meta name="description" content="Demo website for Cinder Lane Kitchen, a fictional wood-fired restaurant. Design sample only.">
+<meta name="theme-color" content="#14110f">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23ff7a3d'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="demo-bar" aria-label="Demo notice"><span class="dot" aria-hidden="true"></span> Demo site, fictional business — a design sample, not a real restaurant · <a href="../index.html">All demos</a></aside>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="Cinder Lane Kitchen, back to top">
+    <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><path d="M20 4c3 7 10 10 10 19a10 10 0 0 1-20 0c0-5 3-8 5-10 0 4 2 6 4 6-2-6 0-11 1-15z" fill="currentColor"/></svg>
+    <span>Cinder Lane</span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links"><span class="sr">Open menu</span><i></i><i></i></button>
+  <nav id="nav-links" aria-label="Main">
+    <a href="#story">Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#hearth">The hearth</a>
+    <a href="#visit">Visit</a>
+    <a class="btn btn-small" href="#book">Book a table</a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="embers" aria-hidden="true">
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <div class="badge" aria-hidden="true">
+    <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs>
+      <text><textPath href="#circ">OAK · CHERRY · EMBER · SMOKE · SLOW FIRE · </textPath></text></svg>
+    <svg class="badge-core" viewBox="0 0 40 40"><path d="M20 4c3 7 10 10 10 19a10 10 0 0 1-20 0c0-5 3-8 5-10 0 4 2 6 4 6-2-6 0-11 1-15z" fill="currentColor"/></svg>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow reveal">Wood-fired · Seasonal · Neighbourhood</p>
+    <h1 id="hero-title" class="hero-title">
+      <span class="line"><span>Cooked slow,</span></span>
+      <span class="line"><span><em>over live fire.</em></span></span>
+    </h1>
+    <p class="lede reveal">A small kitchen built around one oak-burning hearth. Smoke, char and patience — plated for sharing.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#book">Reserve a table <span aria-hidden="true">→</span></a>
+      <a class="btn btn-ghost" href="#menu">See tonight's menu</a>
+    </div>
+  </div>
+  <dl class="hero-facts reveal">
+    <div><dt>Open</dt><dd>Wed–Sun, from 17:30</dd></div>
+    <div><dt>Seats</dt><dd>42 + a 6-seat counter</dd></div>
+    <div><dt>Fire</dt><dd>Oak &amp; cherry wood</dd></div>
+  </dl>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>Flatbreads</span><span>✶</span><span>Coal-roasted roots</span><span>✶</span><span>Whole fish</span><span>✶</span><span>Smoked butter</span><span>✶</span><span>Ember desserts</span><span>✶</span>
+    <span>Flatbreads</span><span>✶</span><span>Coal-roasted roots</span><span>✶</span><span>Whole fish</span><span>✶</span><span>Smoked butter</span><span>✶</span><span>Ember desserts</span><span>✶</span>
+  </div>
+</div>
+
+<section class="story section" id="story" aria-labelledby="story-title">
+  <div class="story-grid">
+    <div class="story-copy">
+      <p class="eyebrow reveal">01 — Our story</p>
+      <h2 id="story-title" class="reveal">One fire. <em>No shortcuts.</em></h2>
+      <p class="reveal">Cinder Lane is an imagined neighbourhood restaurant on a quiet corner. The idea is simple: everything on the menu touches the hearth — the bread, the vegetables, even the ice cream's caramel.</p>
+      <p class="reveal">The menu changes with what the market brings each week, so the kitchen keeps it short and lets the fire do the talking.</p>
+    </div>
+    <figure class="story-art reveal">
+      <svg viewBox="0 0 400 460" role="img" aria-labelledby="hearth-art-title">
+        <title id="hearth-art-title">Illustration of a brick hearth with a glowing fire and hanging pans</title>
+        <defs>
+          <radialGradient id="fireglow" cx="50%" cy="80%" r="60%"><stop offset="0" stop-color="#ffb35c"/><stop offset=".45" stop-color="#ff6a2b"/><stop offset="1" stop-color="#2a1610" stop-opacity="0"/></radialGradient>
+          <linearGradient id="brick" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3a2219"/><stop offset="1" stop-color="#22140f"/></linearGradient>
+        </defs>
+        <rect width="400" height="460" rx="200" ry="200" fill="url(#brick)"/>
+        <g stroke="#4c2d21" stroke-width="2" opacity=".7">
+          <path d="M40 150h320M40 200h320M40 250h320M40 300h320M40 350h320"/>
+          <path d="M100 150v50M200 150v50M300 150v50M150 200v50M250 200v50M100 250v50M300 250v50M150 300v50M250 300v50"/>
+        </g>
+        <path d="M110 420V300a90 90 0 0 1 180 0v120z" fill="#0d0907"/>
+        <ellipse cx="200" cy="410" rx="120" ry="60" fill="url(#fireglow)" class="flicker"/>
+        <g class="flames">
+          <path d="M200 412c-30 0-46-20-40-44 4-16 16-22 18-40 14 14 10 28 18 34 4-14 14-26 12-46 22 20 34 44 30 64-2 20-14 32-38 32z" fill="#ff7a3d"/>
+          <path d="M200 412c-14 0-22-10-18-22 2-8 10-10 10-20 8 8 6 14 12 16 2-8 8-12 6-22 12 12 18 24 14 34-2 8-10 14-24 14z" fill="#ffd27a"/>
+        </g>
+        <rect x="150" y="404" width="100" height="10" rx="5" fill="#5a3426"/>
+        <g fill="#8a5b45"><circle cx="90" cy="110" r="26"/><rect x="86" y="40" width="8" height="46"/><circle cx="310" cy="104" r="20"/><rect x="306" y="40" width="8" height="46"/></g>
+      </svg>
+      <figcaption>Original illustration created for this demo.</figcaption>
+    </figure>
+  </div>
+  <ul class="stats" role="list">
+    <li class="reveal"><strong data-count="900">900</strong><span>°C at the heart of the fire</span></li>
+    <li class="reveal"><strong data-count="12">12</strong><span>hours of slow ember roasting for the lamb</span></li>
+    <li class="reveal"><strong data-count="8">8</strong><span>dishes on the weekly menu, never more</span></li>
+  </ul>
+</section>
+
+<section class="menu section" id="menu" aria-labelledby="menu-title">
+  <div class="section-head">
+    <p class="eyebrow reveal">02 — Tonight's menu</p>
+    <h2 id="menu-title" class="reveal">Built for <em>sharing.</em></h2>
+    <p class="reveal muted">Sample menu for this demo. Prices are illustrative.</p>
+  </div>
+  <div class="tabs reveal">
+    <div role="tablist" aria-label="Menu courses">
+      <button role="tab" id="t-small" aria-controls="p-small" aria-selected="true">Small plates</button>
+      <button role="tab" id="t-fire" aria-controls="p-fire" aria-selected="false" tabindex="-1">From the fire</button>
+      <button role="tab" id="t-sweet" aria-controls="p-sweet" aria-selected="false" tabindex="-1">Sweet</button>
+    </div>
+    <div class="panel" role="tabpanel" id="p-small" aria-labelledby="t-small" tabindex="0">
+      <ul class="dishes" role="list">
+        <li><div><h3>Blistered flatbread</h3><p>Smoked butter, wild garlic, flaky salt</p></div><span class="price">€9</span></li>
+        <li><div><h3>Ember-roasted beetroot</h3><p>Whipped feta, hazelnut, burnt honey</p></div><span class="price">€12</span></li>
+        <li><div><h3>Charred leeks</h3><p>Romesco, toasted almonds, lemon</p></div><span class="price">€11</span></li>
+        <li><div><h3>Grilled sourdough</h3><p>Tomato, olive oil, oregano from the garden</p></div><span class="price">€7</span></li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="p-fire" aria-labelledby="t-fire" tabindex="0" hidden>
+      <ul class="dishes" role="list">
+        <li><div><h3>Whole fish over coals</h3><p>Fennel, brown butter, capers</p></div><span class="price">€29</span></li>
+        <li><div><h3>Twelve-hour lamb shoulder</h3><p>Smoked yoghurt, flatbread, pickled shallot</p></div><span class="price">€34</span></li>
+        <li><div><h3>Hearth-roasted squash</h3><p>Sage, chilli butter, pumpkin seeds</p></div><span class="price">€19</span></li>
+        <li><div><h3>Dry-aged rib, to share</h3><p>Bone marrow, watercress, horseradish</p></div><span class="price">€68</span></li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="p-sweet" aria-labelledby="t-sweet" tabindex="0" hidden>
+      <ul class="dishes" role="list">
+        <li><div><h3>Burnt-caramel ice cream</h3><p>Caramel cooked in the embers, sea salt</p></div><span class="price">€8</span></li>
+        <li><div><h3>Coal-baked apple</h3><p>Oat crumble, crème fraîche</p></div><span class="price">€9</span></li>
+        <li><div><h3>Smoked chocolate pot</h3><p>Olive oil, toasted sourdough crumb</p></div><span class="price">€10</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="hearth section" id="hearth" aria-labelledby="hearth-title">
+  <div class="section-head">
+    <p class="eyebrow reveal">03 — The hearth</p>
+    <h2 id="hearth-title" class="reveal">From log <em>to plate.</em></h2>
+  </div>
+  <ol class="steps" role="list">
+    <li class="step reveal"><span class="num">I</span><h3>Light at noon</h3><p>The oak is lit five hours before service so the coals settle into an even, glowing bed.</p></li>
+    <li class="step reveal"><span class="num">II</span><h3>Read the heat</h3><p>Flames for flatbreads, coals for fish, the dying embers for slow roots and caramel.</p></li>
+    <li class="step reveal"><span class="num">III</span><h3>Rest &amp; share</h3><p>Everything comes to the table to be passed around — the way food over a fire should be.</p></li>
+  </ol>
+</section>
+
+<section class="gallery section" aria-labelledby="gallery-title">
+  <div class="section-head">
+    <p class="eyebrow reveal">04 — From the pass</p>
+    <h2 id="gallery-title" class="reveal">A few <em>favourites.</em></h2>
+  </div>
+  <div class="plates">
+    <figure class="plate reveal">
+      <svg viewBox="0 0 200 200" role="img" aria-labelledby="pl1"><title id="pl1">Illustration of a blistered flatbread with herbs</title><circle cx="100" cy="100" r="92" fill="#efe4d6"/><circle cx="100" cy="100" r="74" fill="#e8b46a"/><circle cx="100" cy="100" r="64" fill="#f3cd84"/><g fill="#4b2a1c"><circle cx="70" cy="80" r="7"/><circle cx="125" cy="70" r="5"/><circle cx="120" cy="125" r="8"/><circle cx="80" cy="130" r="5"/></g><g fill="#5f8a4a"><ellipse cx="100" cy="95" rx="12" ry="5" transform="rotate(30 100 95)"/><ellipse cx="85" cy="110" rx="10" ry="4" transform="rotate(-20 85 110)"/><ellipse cx="135" cy="100" rx="10" ry="4"/></g></svg>
+      <figcaption>Blistered flatbread</figcaption>
+    </figure>
+    <figure class="plate reveal">
+      <svg viewBox="0 0 200 200" role="img" aria-labelledby="pl2"><title id="pl2">Illustration of a whole grilled fish with lemon</title><circle cx="100" cy="100" r="92" fill="#2b2420"/><circle cx="100" cy="100" r="80" fill="#3a302a"/><path d="M40 100c25-30 75-34 110-8l18-16v48l-18-16c-35 26-85 22-110-8z" fill="#c9a37a"/><g stroke="#4b2a1c" stroke-width="4" stroke-linecap="round"><path d="M70 84l10 32M90 80l10 38M110 82l10 34"/></g><circle cx="56" cy="96" r="4" fill="#14110f"/><circle cx="140" cy="140" r="14" fill="#f2d35b"/><circle cx="140" cy="140" r="9" fill="#f7e48f"/></svg>
+      <figcaption>Whole fish over coals</figcaption>
+    </figure>
+    <figure class="plate reveal">
+      <svg viewBox="0 0 200 200" role="img" aria-labelledby="pl3"><title id="pl3">Illustration of roasted beetroot with white cheese</title><circle cx="100" cy="100" r="92" fill="#efe4d6"/><path d="M40 110c10-40 110-50 120 0-20 30-100 30-120 0z" fill="#f7f2ea"/><g fill="#8e1f3d"><circle cx="75" cy="100" r="18"/><circle cx="115" cy="92" r="22"/><circle cx="130" cy="120" r="14"/></g><g fill="#a77b4a"><circle cx="95" cy="125" r="4"/><circle cx="60" cy="118" r="3"/><circle cx="105" cy="70" r="3"/></g></svg>
+      <figcaption>Ember-roasted beetroot</figcaption>
+    </figure>
+    <figure class="plate reveal">
+      <svg viewBox="0 0 200 200" role="img" aria-labelledby="pl4"><title id="pl4">Illustration of a scoop of caramel ice cream</title><circle cx="100" cy="100" r="92" fill="#2b2420"/><circle cx="100" cy="100" r="62" fill="#efe4d6"/><circle cx="100" cy="96" r="34" fill="#d9a066"/><path d="M70 100c10 14 50 14 60 0-4 18-56 18-60 0z" fill="#8b4a22"/><circle cx="112" cy="84" r="4" fill="#fff"/></svg>
+      <figcaption>Burnt-caramel ice cream</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="voices section" aria-labelledby="voices-title">
+  <div class="section-head">
+    <p class="eyebrow reveal">05 — Kind words</p>
+    <h2 id="voices-title" class="reveal">What guests <em>might say.</em></h2>
+    <p class="sample-note reveal">Sample testimonials — placeholder content written for this demo, not real reviews.</p>
+  </div>
+  <div class="quotes">
+    <blockquote class="quote reveal"><p>“The flatbread alone is worth the walk. You can smell the oak from the corner.”</p><footer>— Sample guest A</footer></blockquote>
+    <blockquote class="quote reveal"><p>“A short menu that feels generous. We ordered one of everything and passed it around.”</p><footer>— Sample guest B</footer></blockquote>
+    <blockquote class="quote reveal"><p>“Sitting at the counter watching the fire is the best seat in the house.”</p><footer>— Sample guest C</footer></blockquote>
+  </div>
+</section>
+
+<section class="visit section" id="visit" aria-labelledby="visit-title">
+  <div class="visit-grid">
+    <div>
+      <p class="eyebrow reveal">06 — Visit</p>
+      <h2 id="visit-title" class="reveal">Find the <em>glow.</em></h2>
+      <address class="reveal">12 Cinder Lane (fictional address)<br>Old Town, Example City</address>
+      <table class="hours reveal">
+        <caption class="sr">Opening hours</caption>
+        <tbody>
+          <tr><th scope="row">Mon – Tue</th><td>Closed</td></tr>
+          <tr><th scope="row">Wed – Thu</th><td>17:30 – 22:30</td></tr>
+          <tr><th scope="row">Fri – Sat</th><td>17:30 – 23:30</td></tr>
+          <tr><th scope="row">Sun</th><td>12:00 – 21:00</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="faq reveal">
+      <h3 class="faq-title">Good to know</h3>
+      <details><summary>Do you take walk-ins?</summary><p>Yes — the counter is kept for walk-ins every night.</p></details>
+      <details><summary>Are there vegetarian options?</summary><p>Around half of the menu is vegetarian, and the kitchen can adapt most plates.</p></details>
+      <details><summary>Can I book the whole room?</summary><p>Private dining is available on Mondays and Tuesdays for groups of 20–42.</p></details>
+      <details><summary>Is Cinder Lane a real restaurant?</summary><p>No. Cinder Lane Kitchen is a fictional business created to show a one-page website design.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="book section" id="book" aria-labelledby="book-title">
+  <div class="book-card reveal">
+    <div>
+      <p class="eyebrow">07 — Reservations</p>
+      <h2 id="book-title">Pull up <em>a chair.</em></h2>
+      <p class="muted">This demo form does not send anything. On a real site it would open the visitor's email app or connect to the restaurant's booking tool.</p>
+    </div>
+    <form class="form" id="book-form" novalidate>
+      <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
+      <div class="row">
+        <div class="field"><label for="f-date">Date</label><input id="f-date" name="date" type="date" required></div>
+        <div class="field"><label for="f-guests">Guests</label>
+          <select id="f-guests" name="guests"><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div>
+      </div>
+      <div class="field"><label for="f-note">Anything we should know?</label><textarea id="f-note" name="note" rows="3"></textarea></div>
+      <button class="btn" type="submit">Request a table <span aria-hidden="true">→</span></button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-brand">Cinder Lane</p>
+  <p>Demo site, fictional business. Original design, copy and illustrations made for a portfolio sample. Fonts: Fraunces &amp; Manrope (SIL Open Font License), bundled locally.</p>
+  <a href="#top">Back to top ↑</a>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>
